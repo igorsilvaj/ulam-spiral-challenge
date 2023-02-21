@@ -1,0 +1,51 @@
+.control {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10px 0;
+  position: relative;
+  width: auto;
+  z-index: 1;
+}
+
+.inputNumber {
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 220px;
+}
+
+.btnChangeColor {
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.canvas {
+  min-height: 10px;
+  min-width: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.canvasRow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  min-width: 100%;
+}
+
+.cell {
+  border-radius: 5px;
+  color: transparent;
+  height: 4px;
+  width: 4px;
+}
+
+.border {
+  box-sizing: border-box;
+  border: 0.1px solid rgb(19, 19, 19);
+  border-collapse: collapse;
+}
